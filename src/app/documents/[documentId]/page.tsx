@@ -1,4 +1,5 @@
 import { Editor } from "./editor";
+import { Toolbar } from "./toolbar";
 
 interface DocumentIdPageProps {
     params: Promise<{ documentId: string}>
@@ -13,7 +14,7 @@ interface DocumentIdPageProps {
 
     return (
       <div className="min-h-screen bg-[#FAFBFD] ">
-      
+      <Toolbar /> 
        <Editor />
       </div>
     )
