@@ -188,7 +188,12 @@ body {
       font-size: 1.1rem;
     }
   
-    h4,
+    h4  {
+      
+      font-size: 0.9 rem;
+    }
+
+
     h5,
     h6 {
       font-size: 1rem;
